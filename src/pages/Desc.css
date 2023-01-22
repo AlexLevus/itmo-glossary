@@ -1,0 +1,31 @@
+.term-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.term-title {
+    font-size: 2rem;
+    color: black;
+}
+
+.term-title:first-letter {
+    text-transform: capitalize;
+}
+
+.term-desc {
+    font-size: 1.2rem;
+    color: black;
+}
+
+.term-desc:first-letter {
+    text-transform: capitalize;
+}
+
+.link-wrapper {
+    display: inline-block;
+}
+
+.back-link {
+    display: inline-block;
+}

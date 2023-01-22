@@ -1,0 +1,62 @@
+{
+  "connections": [
+    ["programmingLanguage", "javaScript"],
+    ["programmingLanguage", "typeScript"],
+    ["programmingLanguage", "elm"],
+    ["programmingLanguage", "pureScript"],
+    ["programmingLanguage", "reScript"],
+    ["programmingLanguage", "ecmaScript"],
+
+    ["typing", "dataType"],
+    ["typing", "weakTyping"],
+    ["typing", "strongTyping"],
+    ["typing", "dynamicTyping"],
+    ["typing", "staticTyping"],
+    ["typing", "explicitTyping"],
+    ["typing", "implicitTyping"],
+
+    ["web", "webBrowser"],
+    ["web", "webSite"],
+
+    ["staticProgramAnalysis", "flow"],
+
+    ["codeExecution", "compiler"],
+    ["codeExecution", "interpreter"],
+    ["codeExecution", "transpiler"],
+
+    ["compiler", "compilation"],
+    ["interpreter", "interpretation"],
+    ["transpiler", "transpilation"]
+  ],
+  "names": {
+    "programmingLanguage": "Язык программирования",
+    "javaScript": "JavaScript",
+    "typeScript": "TypeScript",
+    "elm": "Elm",
+    "pureScript": "PureScript",
+    "reScript": "ReScript",
+    "ecmaScript": "EcmaScript",
+    "typing": "Типизация",
+    "dataType": "Тип данных",
+    "weakTyping": "слабая типизация",
+    "strongTyping": "сильная типизация",
+    "dynamicTyping": "динамическая типизация",
+    "staticTyping": "статическая типизация",
+    "explicitTyping": "явная типизация",
+    "implicitTyping": "неявная типизация",
+    "web": "Веб",
+    "webBrowser": "Веб-браузер",
+    "webSite": "Веб-сайт",
+    "staticProgramAnalysis": "Статический анализ кода",
+    "flow": "Flow",
+    "immutability": "Иммутабельность",
+    "refactoring": "Рефакторинг",
+    "codeExecution": "Исполнение программного кода",
+    "compiler": "Компилятор",
+    "interpreter": "Интерпретатор",
+    "transpiler": "Транспайлер",
+    "compilation": "Компиляция",
+    "interpretation": "Интерпретация",
+    "transpilation": "Транспиляция"
+  }
+}

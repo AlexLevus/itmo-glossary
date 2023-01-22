@@ -1,0 +1,19 @@
+.glossary {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.8rem;
+}
+
+.term {
+    font-size: 1.5rem;
+    width: 23%;
+}
+
+.link {
+    display: inline-block;
+}
+
+.link:first-letter {
+    text-transform: capitalize;
+}
