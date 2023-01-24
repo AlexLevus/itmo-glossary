@@ -19,7 +19,7 @@ const App: React.FC = () => {
                         </div>
                         <div className="link-wrapper">
                             <Link to="/mindmap" className="subtitle link">
-                                Mindmap
+                                Семантический граф
                             </Link>
                         </div>
                     </div>

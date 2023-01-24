@@ -11,7 +11,7 @@ const MindMap: React.FC<{ data: any[] }> = ({data}) => {
             marginTop: 60
         },
         title: {
-            text: 'MindMap'
+            text: 'Семантический граф'
         },
         plotOptions: {
             networkgraph: {
@@ -22,13 +22,13 @@ const MindMap: React.FC<{ data: any[] }> = ({data}) => {
             {
                 type: "networkgraph",
                 marker: {
-                    radius: 25
+                    radius: 30
                 },
-                color: '#f0d3c1',
+                color: '#f3ea50',
                 dataLabels: {
                     enabled: true,
                     linkFormat: '',
-                    allowOverlap: true
+                    allowOverlap: false
                 },
                 data
             }
